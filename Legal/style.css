@@ -1,0 +1,190 @@
+body {
+    box-sizing: border-box;
+    Font-family: 'Cabin', Helvetica Neue, Sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.header {
+    height: 100px;
+}
+
+.menu{
+    text-align: left;
+}
+.logo {
+    width: 97px;
+    height: 94px;
+    position: relative;
+    left: 25px;
+}
+
+.warsaw {
+    background-image: url("warsaw.jpg");
+    background-size: cover;
+    height: 583px;
+    background-repeat: no-repeat;
+}
+
+.name {
+    padding-left: 30px;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 253px;
+    padding-top: 299px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 19px;
+    padding-left: 25px;
+
+}
+
+.info, .more, .more_1 {
+    margin: 44px;
+}
+
+.icon {
+    display: block;
+    font-size: 18px;
+    height: 70px;
+
+}
+
+.bi {
+    color: goldenrod;
+    font-size: 30px;
+}
+
+.gda {
+    background-image: url("gda.jpg");
+    background-size: cover;
+    height: 578px;
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.footer {
+    background-color: rgba(107, 104, 116, 0.195);
+    text-align: justify;
+}
+.contact{
+    font-size: 2rem;
+    display: block;
+    padding: 17px;
+    color: #c19865;;
+
+}
+.contact_1{
+    font-size: 1rem;
+    display: block;
+    padding: 17px;
+}
+
+.more_text {
+    font-size: 3rem;
+    color: white;
+    padding-top: 120px;
+
+}
+
+.more_text_1 {
+    font-size: 1.1rem;
+    margin-top: 25px;
+    color: white;
+    text-align: justify;
+}
+
+.info_text {
+    font-size: 3rem;
+
+}
+
+.info_text_1 {
+    font-size: 1rem;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.finance {
+    text-align: justify;
+}
+.info_text_1_naglowek{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 0;
+}
+.line{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 145px;
+    background-color: #c19865;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /*.hamburger{
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 20px;
+        right: 3px;
+        width: 100px;
+    }*/
+    h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .more_text {
+        font-size: 2rem;
+        color: white;
+        margin: auto;
+    }
+
+    .more_text_1 {
+        font-size: 1rem;
+        color: white;
+        margin-top: 25px;
+    }
+
+    .info_text {
+        font-size: 2rem;
+        margin: auto;
+    }
+
+    .info_text_1 {
+        font-size: 1rem;
+        margin-top: 25px;
+    }
+}
