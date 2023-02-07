@@ -8,10 +8,26 @@ body {
 
 .header {
     height: 100px;
+    justify-content: space-around;
+
 }
 
 .menu{
     text-align: left;
+}
+.nav{
+    font-size: 19px;
+    position: relative;
+    top: 28%;
+    text-align: center;
+    color: #c19865;
+}
+a{
+    color: #c19865;
+    text-decoration: none;
+}
+.menu_1{
+    width: 187px;
 }
 .logo {
     width: 97px;
@@ -23,12 +39,13 @@ body {
 .warsaw {
     background-image: url("warsaw.jpg");
     background-size: cover;
-    height: 583px;
+    height: 635px;
     background-repeat: no-repeat;
 }
 
+
 .name {
-    padding-left: 30px;
+    padding-left: 44px;
 }
 
 h2 {
@@ -53,8 +70,14 @@ h1 {
 
 }
 
-.info, .more, .more_1 {
-    margin: 44px;
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.services{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .icon {
@@ -81,6 +104,8 @@ h1 {
 .footer {
     background-color: rgba(107, 104, 116, 0.195);
     text-align: justify;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .contact{
     font-size: 2rem;
@@ -98,30 +123,42 @@ h1 {
 .more_text {
     font-size: 3rem;
     color: white;
-    padding-top: 120px;
-
+    padding-top: 64px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 
 .more_text_1 {
     font-size: 1.1rem;
     margin-top: 25px;
     color: white;
     text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 
 .info_text {
     font-size: 3rem;
-
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .info_text_1 {
     font-size: 1rem;
-    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: justify;
+    
 }
 
 .finance {
     text-align: justify;
+    padding-bottom: 62px;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 .info_text_1_naglowek{
     text-transform: uppercase;
@@ -136,10 +173,8 @@ h1 {
     height: 1px;
     width: 145px;
     background-color: #c19865;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
-
 
 @media screen and (max-width: 768px) {
 
@@ -165,11 +200,14 @@ h1 {
         text-transform: uppercase;
         text-align: center;
     }
+    .menu_1{
+        visibility: hidden;
+    }
 
     .more_text {
         font-size: 2rem;
         color: white;
-        margin: auto;
+        /*margin: auto;*/
     }
 
     .more_text_1 {
@@ -180,7 +218,7 @@ h1 {
 
     .info_text {
         font-size: 2rem;
-        margin: auto;
+       /*margin: auto;*/
     }
 
     .info_text_1 {
