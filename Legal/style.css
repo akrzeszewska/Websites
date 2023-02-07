@@ -5,49 +5,42 @@ body {
     text-align: center;
     background-color: white;
 }
-
 .header {
     height: 100px;
-    justify-content: space-around;
-
 }
-
 .menu{
     text-align: left;
-}
-.nav{
-    font-size: 19px;
-    position: relative;
-    top: 28%;
-    text-align: center;
-    color: #c19865;
-}
-a{
-    color: #c19865;
-    text-decoration: none;
+    margin: 0 auto;
 }
 .menu_1{
-    width: 187px;
+    text-align: center;
+    font-size: 18px;
+    color: goldenrod;
+    margin: auto;
+}
+a{
+    color: goldenrod;
+    text-decoration: none;
 }
 .logo {
     width: 97px;
     height: 94px;
-    position: relative;
-    left: 25px;
 }
-
 .warsaw {
     background-image: url("warsaw.jpg");
     background-size: cover;
-    height: 635px;
+    height: 704px;
     background-repeat: no-repeat;
+    background-color: rgb(174, 174, 174);
+    background-blend-mode: multiply;
 }
-
-
+.info_text_1_2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .name {
     padding-left: 44px;
 }
-
 h2 {
     font-size: 3rem;
     color: white;
@@ -55,9 +48,7 @@ h2 {
     text-align: left;
     margin-top: 253px;
     padding-top: 299px;
-
 }
-
 h1 {
     color: white;
     font-size: 5rem;
@@ -65,33 +56,24 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
     text-align: left;
-    padding-bottom: 19px;
-    padding-left: 25px;
-
 }
-
 .row{
     margin-left: 0;
     margin-right: 0;
 }
-
 .services{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 .icon {
     display: block;
     font-size: 18px;
     height: 70px;
-
 }
-
 .bi {
     color: goldenrod;
     font-size: 30px;
 }
-
 .gda {
     background-image: url("gda.jpg");
     background-size: cover;
@@ -100,7 +82,6 @@ h1 {
     background-color: grey;
     background-blend-mode: multiply;
 }
-
 .footer {
     background-color: rgba(107, 104, 116, 0.195);
     text-align: justify;
@@ -111,15 +92,17 @@ h1 {
     font-size: 2rem;
     display: block;
     padding: 17px;
-    color: #c19865;;
-
+    color: goldenrod;;
 }
 .contact_1{
     font-size: 1rem;
     display: block;
     padding: 17px;
 }
-
+.more_1{
+    padding-left: 44px;
+    padding-right: 44px;
+}
 .more_text {
     font-size: 3rem;
     color: white;
@@ -127,38 +110,29 @@ h1 {
     padding-left: 100px;
     padding-right: 100px;
 }
-
-
 .more_text_1 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-top: 25px;
     color: white;
     text-align: justify;
     padding-left: 100px;
     padding-right: 100px;
+    text-align-last: center;
 }
-
-
 .info_text {
     font-size: 3rem;
     padding-top: 50px;
     padding-bottom: 25px;
 }
-
 .info_text_1 {
     font-size: 1rem;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: justify;
-    
 }
-
 .finance {
     text-align: justify;
     padding-bottom: 62px;
-    padding-left: 50px;
-    padding-right: 50px;
-
 }
 .info_text_1_naglowek{
     text-transform: uppercase;
@@ -167,32 +141,54 @@ h1 {
     margin-top: 0;
 }
 .line{
-    content: "";
     display: block;
     margin: 0 auto;
     height: 1px;
     width: 145px;
-    background-color: #c19865;
+    background-color: goldenrod;
     margin-bottom: 40px;
 }
-
 @media screen and (max-width: 768px) {
-
-    /*.hamburger{
-        font-size: 2rem;
-        color: white;
-        position: absolute;
-        top: 20px;
-        right: 3px;
-        width: 100px;
-    }*/
+    .logo{
+        left: 0;
+    }
+    .name{
+        padding-left: 12px;
+    }
+    .warsaw{
+        height: 624px;
+    }
+    .line{
+        margin-bottom: 15px;
+    }
+    .icon{
+        font-size: 13px;
+        height: 45px;
+    }
+    .services{
+        padding-top: 0;
+    }
+    .footer{
+        padding-top: 0;
+    }
+    .contact{
+        padding: 0;
+    }
+    .contact_1 {
+        font-size: 13px;
+        padding: 0;
+        padding-bottom: 25px;
+    }
+    .bi-person-fill, .bi-geo-alt, .bi-telephone, .bi-envelope-at{
+    font-size: 16px;
+    }
     h2 {
         font-size: 2rem;
         font-weight: 400;
         text-align: center;
         margin-top: auto;
+        padding-top: 100px;
     }
-
     h1 {
         font-size: 3rem;
         font-weight: 700;
@@ -203,26 +199,37 @@ h1 {
     .menu_1{
         visibility: hidden;
     }
-
     .more_text {
         font-size: 2rem;
         color: white;
-        /*margin: auto;*/
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
     }
-
     .more_text_1 {
         font-size: 1rem;
         color: white;
-        margin-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 13px;
+        padding-bottom: 100px;
     }
-
     .info_text {
         font-size: 2rem;
-       /*margin: auto;*/
     }
-
     .info_text_1 {
-        font-size: 1rem;
-        margin-top: 25px;
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 22px;
     }
+}
+@media screen and (max-width: 990px) and (min-width: 768px)  {
+    .contact_1 {
+        font-size: 13px;
+        padding: 0;
+        padding-bottom: 25px;
+    }
+    .bi-person-fill, .bi-geo-alt, .bi-telephone, .bi-envelope-at{
+        font-size: 16px;
+        }
 }
